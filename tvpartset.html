@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image video overlay</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Set a maximum width for the container */
+        }
+
+        .img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%; /* Adjust the width as needed */
+            height: auto;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        @media (max-width: 600px) {
+            /* Adjust styles for smaller screens */
+            video {
+                width: 80%; /* Change the width for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="img" src="./images videos/imgvid/tv.png">
+        <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" autoplay muted loop></video>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,330 @@
+@media only screen and (max-width:600px) {
+    footer {
+        height:auto;
+        width: 100%;
+    }
+    .f-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* height: auto; */
+    }
+    .faq-container {
+        height: auto;
+    }
+    .hform{
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+    .hemail{
+        font-size: 1em;
+        width:18em;
+        height: 3.5em;
+    }
+    .getbtn{
+        font-size: 1em;
+        width: 9em;
+        height: 3.4em;
+    }
+    .main{
+        height:auto;
+    }
+    .hcontent{
+        padding: 3em 2em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main2{
+        height:auto;
+    }
+    .main2contain {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin: 1.5em;
+    }
+
+    .textpart{
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tvpart {
+        height: 100%;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .tvpart {
+        order: 1;
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:700px){
+    .main2{
+        height: auto;
+    }
+    .main2contain{
+        margin: 1em 1em;
+    }
+    .textpart{
+        transform: translateY(1em);
+    }
+   
+    .tvpart img{
+        width:90%;
+    }
+    .tvpart video{
+        height:50%;
+        width: 85%;
+    }
+}
+@media only screen and (max-width:1100px) and (min-width:1000px){
+    .tvpart img{
+        width:120%;
+    }
+    .tvpart video{
+        height:100%;
+        width: 85%;
+    }
+    .main2contain{
+        margin: 5px 0px;
+    }
+}
+@media only screen  and (max-width:400px) and (min-width:340px){
+    .main2{
+        height: auto;
+    }
+    .tvpart{
+        width:110%;
+    }
+    .tvpart img{
+        width: 100%;
+    }
+    .tvpart video{
+        width:70%;
+        height: 65%;
+    }
+    .main2contain{
+        margin: 2.5em;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 300px) {
+    .main3 {
+        height: auto;
+    }
+
+    .content3 {
+        margin: 2em;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .imgpart3 {
+        width: 100%; 
+        order: 1;
+    }
+
+    .imgpart3 img {
+        width: 100%;
+    }
+
+    .textpart3 {
+        padding: 2em 4em;
+        text-align: center;
+        width: 100%;
+    }
+    .s-box{
+        font-size:1.3em;
+        height: 22%;
+        width: 50%;
+    }
+    
+    
+}
+@media only screen and (max-width:520px) and (min-width:300px){
+ 
+    .s-box{
+        height: 4.2em;
+        width: 55%;
+        font-size: 1.1em;
+    }
+    .s-box img{
+        height: 50%;
+    }
+    .content3-h{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width:400px) and (min-width:300px) {
+    .s-box{
+        height: 5em;
+        font-size: 0.89em;
+    }
+    
+}
+@media only screen and (max-width:1000px) and (min-width:700px){
+    .imgpart3{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:410px) and (min-width:320px){
+    .textpart3{
+        padding: 4px;
+    }
+    .content3-h{
+        font-size: 2em;
+    }
+    .s-box{
+        height: 28%;
+    }
+    .s-boxtext h3{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:320px) {
+    
+    .main4{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .text4{
+        display: flex;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+
+    .text4 h1{
+        font-size: 2.5em;
+    }
+
+    .text4 span{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media only screen and (max-width:600px) and (min-width:320px){
+    .text4{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:400px) and (min-width:300px){
+    .text4 span{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width:750px) and (min-width:600px){
+    .text4{
+        width: 60%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+    .main5{
+        height: auto;
+    }
+    .content5{
+        margin: 3em;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .textpart5,
+    .imagepart5 {
+        text-align: center;
+        margin: 1.2em;
+        width: 100%;
+    }
+    .textpart5 h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagepart5 {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width:440px) and (min-width:320px){
+    .content5{
+        margin: 1.1em;
+    }
+    .textpart5 h1{
+        font-size: 2.6em;
+    }
+    .textpart5 span{
+        font-size: 1.4em;
+    }
+} 
+
+@media only screen and (max-width:940px) and (min-width:780px){
+    .getbtn2{
+        padding: 1px;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 785px) and (min-width: 320px) {
+    .submit6 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; /* Stack the elements vertically */
+        text-align: center;
+        justify-content: center; 
+        margin: 1em;
+    }
+
+    .hform2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 1em; /* Add spacing between input and button */
+    }
+
+    .hemail2 {
+        width: 85%; 
+    }
+
+    .getbtn2 {
+        max-width: 50%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:1100px) and (min-width:600px){
+    .f-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width:760px) and (min-width:560px){
+    .f-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:460px) and (min-width:320px){
+    .f-container{
+        column-gap:1.5em;
+
+    }
+}
